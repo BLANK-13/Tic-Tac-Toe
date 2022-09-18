@@ -44,7 +44,7 @@ def win_tie_check(player_1: Player, player_2 : Player):
 
 
 def intro():
-    print('Welcomce to tic tac toe game !\n\nBoard template\n1 | 2 | 3\n4 | 5 | 6\n7 | 8 | 9\n')
+    print('Welcome to tic tac toe game !\n\nBoard template\n1 | 2 | 3\n4 | 5 | 6\n7 | 8 | 9\n')
 
 
 def game_logic(solo : bool, player_1 : Player, player_2 : Player):
