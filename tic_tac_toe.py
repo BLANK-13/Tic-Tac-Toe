@@ -1,6 +1,5 @@
 import random
 import time
-from ast import While
 
 game_list : list = [' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
