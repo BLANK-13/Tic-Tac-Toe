@@ -74,13 +74,13 @@ def game_logic(solo : bool, player_1 : Player, player_2 : Player):
                     if 1 in player_1.player_choice and 2 in player_1.player_choice and counter < 3:
                         move = 3
                         counter+= 1
-                    elif 2 in player_1.player_choice and 3 in player_1.player_choice and counter < 3:
+                    elif 2 in player_1.player_choice and 3 in player_1.player_choice and counter < 12:
                         move = 1
                         counter+= 1
-                    elif 1 in player_1.player_choice and 3 in player_1.player_choice and counter < 3:
+                    elif 1 in player_1.player_choice and 3 in player_1.player_choice and counter < 12:
                         move = 2
                         counter+= 1
-                    elif 4 in player_1.player_choice and 5 in player_1.player_choice and counter < 3:
+                    elif 4 in player_1.player_choice and 5 in player_1.player_choice and counter < 12:
                         move = 6
                         counter+= 1
                     elif 5 in player_1.player_choice and 6 in player_1.player_choice and counter < 12:
